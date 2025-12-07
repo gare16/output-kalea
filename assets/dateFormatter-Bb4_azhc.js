@@ -1,0 +1,1 @@
+const c=r=>{if(!r)return"-";try{const t=new Date(r),o=t.getDate().toString().padStart(2,"0"),e=(t.getMonth()+1).toString().padStart(2,"0"),n=t.getFullYear(),a=t.getHours().toString().padStart(2,"0"),s=t.getMinutes().toString().padStart(2,"0");return`${o}-${e}-${n}, ${a}:${s}`}catch(t){return console.error("Error formatting date:",t),"-"}};export{c as f};
