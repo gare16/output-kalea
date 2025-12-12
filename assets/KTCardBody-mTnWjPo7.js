@@ -1,0 +1,1 @@
+import{j as l,s as t}from"./index-ByLk8s-j.js";const e=a=>{const{className:s,scroll:c,height:r,children:o}=a;return l.jsx("div",{className:t("card-body",s&&s,{"card-scroll":c},r&&`h-${r}px`),children:o})};export{e as K};
